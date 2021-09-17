@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {connect} from 'react-redux';
 import {shortenTitle} from "../../pipes/shortenTitle";
 import {formatMoney} from "../../pipes/priceFormatter";
-import './CartItem.css';
+import './CartItem.scss';
 import {addProductToCart, decrementCartQuantity, incrementCartQuantity, removeProductToCart} from "../../actions";
 
 const CartItem = (

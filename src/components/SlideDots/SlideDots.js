@@ -1,5 +1,5 @@
 import React from 'react';
-import './SlideDots.css';
+import './SlideDots.scss';
 
 const SlideDots = (
     {

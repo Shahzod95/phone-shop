@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import {formatMoney} from "../../pipes/priceFormatter";
 import {cumulativeOffSet} from "../../utilities/cumulativeOffset";
 
-import './Product.css';
+import './Product.scss';
 import SlideDots from "../SlideDots/SlideDots";
 import {addProductToCart} from "../../actions";
 
@@ -83,7 +83,7 @@ const Product = (props) => {
                     onClick={() => {
                         props.dispatch(addProductToCart({...props.product}))
                     }}
-                    className="btn mt-0 btn-info product__add-to-cart">Add to cart
+                    className="btn btn-info product__add-to-cart">Add to cart
                 </button>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './LayoutMode.css';
+import './LayoutMode.scss';
 
 const LayoutMode = (
     {

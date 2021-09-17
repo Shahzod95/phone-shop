@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {cumulativeOffSet} from "../../utilities/cumulativeOffset"
-import './ProductSlider.css';
+import './ProductSlider.scss';
 
 const ProductSlider = (
     {

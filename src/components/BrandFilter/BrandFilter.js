@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import './BrandFilter.css';
+import './BrandFilter.scss';
 import {brands} from "../../data/brands";
 import {addBrandToFilter, removeBrandFromFilter} from "../../actions";
 
@@ -27,7 +27,7 @@ const BrandFilter = (props) => {
                 </div>
                 <ul className="list-group flex-row flex-wrap">
                     {brands.map(brand => (
-                        <li key={brand.toString()} className="list-group-item flex-50">
+                        <li key={brand} className="list-group-item flex-50">
                             <label className="custom-checkbox text-capitalize"> {brand} ({brandItemsCount[brand]})
                                 <input type="checkbox"
                                        name={brand}
